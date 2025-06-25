@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="icon" type="image" href="photo/tumb.png">
+  <title>sweets and snacks</title>
+</head>
+
+<body>
+
+  <!-- marquee content -->
+
+  <marquee direction="left">
+    <pre>
+      <strong> Welcome to our website, </strong>Get 50% Offer on your first order.  |  We are shipping PAN india,<strong> FREE Delivery above Rs.500</strong>  |  delivery time vary depending on pincode</pre>
+  </marquee>
+
+
+  <!-- navigation bar -->
+
+  <nav class="navbar position-sticky fixed-top position-relative z-index-1">
+
+    <!-- <div class="menu"> -->
+    <i class="fa-solid fa-bars" id="menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+      style="font-size: x-large;  color: #d63384;  "></i>
+    <div class="offcanvas offcanvas-start fade" id="offcanvasExample">
+      <div class="offcanvas-header">
+        <h1 class="offcanvas-title">Menu</h1>
+        <button type="button" class="btn-close  text-reset" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="nav-links1">
+          <li><a class="a1" href="#home">Home</a></li>
+          <li><a class="a1" href="#">Sweets</a></li>
+          <li><a class="a1" href="#">Snacks</a></li>
+          <li><a class="a1" href="#">Cakes</a></li>
+          <li><a class="a1" href="#service-section">Services</a></li>
+          <li><a class="a1" href="#about-section">About</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <!-- </div> -->
+    <div class="logo">
+      <img src="photo/tasty2.png" alt="design" width="100" height="60">
+    </div>
+
+    <ul class="nav-links">
+      <li><a class="a1" href="#home">Home</a></li>
+      <li><a class="a1" href="#">Sweets</a></li>
+      <li><a class="a1" href="#">Snacks</a></li>
+      <li><a class="a1" href="#">Cakes</a></li>
+      <li><a class="a1" href="#service-section">Services</a></li>
+      <li><a class="a1" href="#about-section">About</a></li>
+    </ul>
+
+    <div class="icons">
+      <div class="search-bar">
+        <input type="search" name="text" id="text" placeholder="Search...">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+
+      <div class="dropdown">
+
+        <i class="fa-solid fa-user" style="margin-left: 10px;"></i>
+        <div class="dropdown-content">
+          <a href="#" class="a1" data-bs-toggle="offcanvas" data-bs-target="#off1">Sign Up</a>
+          <div class="offcanvas offcanvas-start fade" id="off1">
+            <div class="offcanvas-header">
+              <h1 class="offcanvas-title">Sign Up</h1>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+              <form class="signup">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter you name" required><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Email" required><br>
+                <label for="pwd">Password</label><br>
+                <input type="password" id="pwd" name="pwd" placeholder="password" required><br>
+                <label for="pwd">Confirm Password</label><br>
+                <input type="password" id="pwd" name="pwd" placeholder="Confirm password" required><br>
+                <button>Sign Up</button>
+
+
+                <div class="d-flex justify-content-center align-items-center">Already have an account?<a href="#">Log
+                    in</a></div>
+              </form>
+            </div>
+          </div>
+
+          <a href="#" class="a2" data-bs-toggle="offcanvas" data-bs-target="#off">Log in</a>
+          <div class="offcanvas offcanvas-start fade" id="off">
+            <div class="offcanvas-header">
+              <h1 class="offcanvas-title">Log In</h1>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+              <form class="signup">
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Email" required><br>
+                <label for="pwd">Password</label><br>
+                <input type="password" id="pwd" name="pwd" placeholder="password" required><br>
+                <div style="margin-left: 20px;"><a href="#">Forgot password?</a></div>
+                <button>Log In</button>
+              </form>
+
+              <div class="d-flex justify-content-center align-items-center">Don't have an account? <a href="#">Sign
+                  up</a></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <i class="fa-regular fa-user"></i> -->
+      <i class="fa-solid fa-heart" style="margin-left: 10px;"></i>
+      <!-- <i class="fa-regular fa-heart"></i> -->
+       
+        <div class="shopping">
+
+          <i class="fa-solid fa-cart-shopping" style="margin-left: 10px;"></i>
+          <span class="quantity">0</span>
+        </div>
+       
+    </div>
+
+    </div>
+  </nav>
+
+  <!-- navbar end -->
+
+  <!-- carousel bar  -->
+
+  <div class="carousel slide" id="move" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <div class="content1">
+          <img src="photo/festival.webp" alt="photo">
+          <div class="text1">
+            <h2>Festive Sweetness</h2>
+            <p class="off">
+              Up to 25% off</p>
+            <p> on all traditional sweets during festival seasons modaks, laddoos,
+              barfis, and more!</p>
+            <button>shop now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="content1">
+          <img src="photo/biscuit.jpg" alt="photo1">
+          <div class="text1">
+            <h2>Tea-Time Special</h2>
+            <p class="off">
+              15% off</p>
+            <p> on all tea-time snacks like cookies, biscuits, and muffins every afternoon from
+              2
+              PM to 5 PM.</p>
+            <button>shop now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="content1">
+          <img src="photo/cupcake.jpg" alt="photo2">
+          <div class="text1">
+            <h2>Midnight Cravings Sale</h2>
+            <p class="off">
+              20% off </p>
+            <p>on all cupcakes and brownies from 10 PM to 1 AM</p>
+            <button>shop now</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#move">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#move">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+    <div class="carousel-indicators">
+      <button type="button" class="active" data-bs-target="#move" data-bs-slide-to="0" aria-label="slide 1"></button>
+      <button type="button" data-bs-target="#move" data-bs-slide-to="1" area-label="slide 2"></button>
+      <button type="button" data-bs-target="#move" data-bs-slide-to="2" area-label="slide 3"></button>
+    </div>
+  </div>
+
+  <!-- carousel bar end -->
+
+  <!-- home section -->
+
+  <section class="home" id="home">
+    <div class="content2">
+      <h1>Welcome to our sweets and snacks</h1>
+      <p>we provide the best quality of sweets and snacks</p>
+    </div>
+
+    <div class="home-page">
+      <div class="home-image ">
+        <img src="photo/gift (2).jpg" alt="photo" style="border-radius: 20px;">
+      </div>
+
+      <div class="gift">
+        <h3>Try our special gifts</h3>
+        <p> Share the sweetness with our beautifully curated gift hampers, perfect for every occasion.
+          Whether it's a birthday, anniversary, or a corporate gift, our hampers are packed with love and deliciousness!
+        </p>
+        <button>shop now</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- home section end -->
+
+  <!-- products section -->
+  <!-- sweet section -->
+  <!-- <section class="products" id="products">
+
+    <div class="container1 ">
+      <div class="product">
+
+        <div class=" card p-3" id="product-content">
+          <img src="photo/Rasgulla.jpg" alt="sweet1" height="200" class="card-image-top">
+          <div class="mt-5">
+            <h3>Rasgulla</h3>
+            <span>Rs. 200</span>
+          </div>
+          <div class="d-flex gap-2 ">
+            <button>add to cart</button>
+          </div>
+        </div>
+
+        <div class="card p-3" id="product-content">
+          <img src="photo/gulab.webp" alt="sweet2" height="200" class="card-image-top">
+          <div class="mt-5">
+            <h3>Gulab jamun</h3>
+            <span>Rs. 300</span>
+          </div>
+          <div class="d-flex gap-2 ">
+            <button>add to cart</button>
+          </div>
+        </div>
+
+        <div class=" card p-3" id="product-content">
+          <img src="photo/laddu.webp" alt="sweet3" height="200" class="card-image-top">
+          <div class="mt-5">
+            <h3>Laddu</h3>
+            <span>Rs. 250</span>
+          </div>
+          <div class="d-flex gap-2 ">
+            <button>add to cart</button>
+          </div>
+        </div>
+
+        <div class=" card p-3" id="product-content">
+          <img src="photo/mysore.webp" alt="sweet4" height="200" class="card-image-top">
+          <div class="mt-5">
+            <h3>Mysore pak</h3>
+            <span>Rs. 350</span>
+          </div>
+          <div class="d-flex gap-2 ">
+            <button>add to cart</button>
+          </div>
+        </div>
+
+      </div>
+      <div id="button">
+        <button>view all</button>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- snacks section -->
+
+  <!-- <section class="products" id="products">
+
+    <div class="container1">
+      <div class="product">
+
+        <div class=" card p-3" id="product-content">
+          <img src="photo/samosa.jpg" alt="snack1" height="200" class="card-image-top">
+          <div class="mt-5">
+            <h3>Samosa</h3>
+            <span>Rs. 20</span>
+          </div>
+          <div class="d-flex gap-2 ">
+            <button type="button" class="btn btn-warning  w-100 ">add to cart</button>
+          </div>
+        </div>
+
+        <div class=" card p-3" id="product-content">
+          <img src="photo/puff.jpg" alt="snack2" height="200" class="card-image-top">
+          <div class="mt-5">
+            <h3>Curry puff</h3>
+            <span>Rs. 30</span>
+          </div>
+          <div class="d-flex gap-2 ">
+            <button type="button" class="btn btn-warning  w-100 ">add to cart</button>
+          </div>
+        </div>
+
+        <div class="card p-3" id="product-content">
+          <img src="photo/mixture.webp" alt="snack3" height="200" class="card-image-top">
+          <div class="mt-5">
+            <h3>Mixture</h3>
+            <span>Rs. 10</span>
+          </div>
+          <div class="d-flex gap-2 ">
+            <button type="button" class="btn btn-warning  w-100 ">add to cart</button>
+          </div>
+        </div>
+
+        <div class=" card p-3" id="product-content">
+          <img src="photo/chips.jpg" alt="snack4" height="200" class="card-image-top">
+          <div class="mt-5">
+            <h3>Chips</h3>
+            <span>Rs. 15</span>
+          </div>
+          <div class="d-flex gap-2 ">
+            <button type="button" class="btn btn-warning  w-100 ">add to cart</button>
+          </div>
+        </div>
+
+      </div>
+      <div id="button">
+        <button>view all</button>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- cakes section -->
+
+  <!-- <section class="products" id="products">
+
+    <div class="container1 ">
+      <div class="product ">
+
+        <div class="card p-3 " id="product-content">
+          <img src="photo/chocolate.jpg" alt="cake1" height="200" class="card-image-top">
+          <div class="mt-5">
+            <h3>Chocolate cake</h3>
+            <span>Rs. 500</span>
+          </div>
+          <div class="d-flex gap-2 ">
+            <button type="button" class="btn btn-warning  w-100 ">add to cart</button>
+          </div>
+        </div>
+
+        <div class=" card p-3" id="product-content">
+          <img src="photo/black.jpg" alt="cake2" height="200" class="card-image-top">
+          <div class="mt-5">
+            <h3>Black forest </h3>
+            <span>Rs. 600</span>
+          </div>
+          <div class="d-flex gap-2 ">
+            <button type="button" class="btn btn-warning  w-100 ">add to cart</button>
+          </div>
+        </div>
+
+        <div class="card p-3" id="product-content">
+          <img src="photo/vanilla.jpg" alt="cake3" height="200" class="card-image-top">
+          <div class="mt-5">
+            <h3>Vanilla cake</h3>
+            <span>Rs. 550</span>
+          </div>
+          <div class="d-flex gap-2 ">
+            <button type="button" class="btn btn-warning  w-100 ">add to cart</button>
+          </div>
+        </div>
+
+        <div class="card p-3" id="product-content">
+          <img src="photo/strawberry.jpg" alt="cake4" height="200" class="card-image-top">
+          <div class="mt-5">
+            <h3>Strawberry cake</h3>
+            <span>Rs. 700</span>
+          </div>
+          <div class="d-flex gap-2 ">
+            <button type="button" class="btn btn-warning  w-100 ">add to cart</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  -->
+      
+<div class="list">
+    </div>
+     <div class="cart">
+        <h1>Shopping Cart</h1>
+        <ul class="listcard"></ul>
+        <div class="checkout">
+            <div class="total">Total 0</div>
+            <div class="closeshopping">Close</div>
+        </div>
+    </div>
+    <div id="button">
+        <button>view all</button>
+      </div>
+  <!-- product section end -->
+
+  <!-- services section -->
+  <section id="service-section">
+
+    <div class="service-title">
+      <h2>Our services</h2>
+      <p> We’re here to make your sweet moments even more special! Explore our range of services, from custom cakes to
+        quick delivery options, designed to add a sprinkle of joy to your day.
+      </p>
+    </div>
+
+    <div class="services">
+
+      <div class="service ">
+        <i class="fa-solid fa-cake-candles" style="font-size: 50px; color: #d63384;"></i>
+        <h2>custom cakes</h2>
+        <p>Personalize your cakes for birthdays, weddings, or any special occasion with unique flavors and designs.</p>
+      </div>
+
+      <div class="service ">
+        <i class="fa-brands fa-shopify" style="font-size: 50px; color: #d63384;"></i>
+        <h2>bulk orders</h2>
+        <p>Order in bulk for your special events and celebrations, and enjoy our special discounts and offers.</p>
+      </div>
+
+      <div class="service ">
+        <i class="fa-solid fa-gift" style="font-size: 50px; color: #d63384;"></i>
+        <h2>gift hampers</h2>
+        <p>Surprise your loved ones with beautifully curated hampers, perfect for any celebration.</p>
+      </div>
+    </div>
+    <div class="services1">
+
+      <div class="service1 ">
+        <i class="fa-solid fa-truck-fast" style="font-size: 50px;  color: #d63384;"></i>
+        <h2>same day delivery</h2>
+        <p>Forgot a special date? No worries! Get your sweet treats delivered the same day.</p>
+      </div>
+
+      <div class="service1 ">
+        <i class="fa-solid fa-id-card" style="font-size: 50px;  color: #d63384;"></i>
+        <h2>contact us</h2>
+        <p>Have a special request? <strong>Contact us today</strong> to make your sweet dreams come true!</p>
+      </div>
+
+      <div class="service1 ">
+        <i class="fa-solid fa-ice-cream" style="font-size: 50px;  color: #d63384;"></i>
+        <h2>events</h2>
+        <p>From birthdays to weddings, we cater to all your special events with our delicious range of sweets and
+          snacks.</p>
+      </div>
+
+    </div>
+  </section>
+  <!-- services secrtion end -->
+
+
+  <!-- south indian special -->
+  <!-- south indian special sweet -->
+
+  <div class="south">
+    <h2>South Indian Special Sweets And Snacks</h2>
+    <p> our special range of traditional sweets and snacks. Made with
+      authentic recipes and the finest ingredients, our South Indian collection is a treat for your taste buds!</p>
+  </div>
+
+  <div class="container2 ">
+    <div class="product1">
+
+      <div class=" card " id="product-content1">
+        <img src="photo/halwah.webp" alt="sweet1" height="200" class="card-image-top">
+        <div class="mt-5">
+          <h3>Iruttukadai Halwah</h3>
+          <span>Rs. 200</span>
+        </div>
+        <button>add to cart</button>
+      </div>
+
+      <div class="card" id="product-content1">
+        <img src="photo/palgoa.jpg" alt="sweet2" height="200" class="card-image-top">
+        <div class="mt-5">
+          <h3>pal Goa</h3>
+          <span>Rs. 300</span>
+        </div>
+        <button>add to cart</button>
+      </div>
+
+      <div class=" card " id="product-content1">
+        <img src="photo/poli.jpg" alt="sweet3" height="200" class="card-image-top">
+        <div class="mt-5">
+          <h3>Poli</h3>
+          <span>Rs. 250</span>
+        </div>
+        <button>add to cart</button>
+      </div>
+
+      <div class=" card " id="product-content1">
+        <img src="photo/adirasam.jpg" alt="sweet4" height="200" class="card-image-top">
+        <div class="mt-5">
+          <h3>Adirasam</h3>
+          <span>Rs. 250</span>
+        </div>
+        <button>add to cart</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- south indian special snack -->
+
+  <div class="container2 ">
+    <div class="product1">
+      <div class=" card " id="product-content1">
+        <img src="photo/Ghee-Murukku.webp" alt="sweet1" height="200" class="card-image-top">
+        <div class="mt-5">
+          <h3>Ghee Murukku</h3>
+          <span>Rs. 200</span>
+        </div>
+        <button>add to cart</button>
+      </div>
+
+      <div class="card " id="product-content1">
+        <img src="photo/Banana_Chips.webp" alt="sweet2" height="200" class="card-image-top">
+        <div class="mt-5">
+          <h3>Banana Chips</h3>
+          <span>Rs. 300</span>
+        </div>
+        <button>add to cart</button>
+      </div>
+
+      <div class=" card " id="product-content1">
+        <img src="photo/rose.jpg" alt="sweet3" height="200" class="card-image-top">
+        <div class="mt-5">
+          <h3>Rose kokki</h3>
+          <span>Rs. 250</span>
+        </div>
+        <button>add to cart</button>
+      </div>
+      <div class=" card " id="product-content1">
+        <img src="photo/Pootharekulu.png" alt="sweet4" height="200" class="card-image-top">
+        <div class="mt-5">
+          <h3>Pootharekulu</h3>
+          <span>Rs. 250</span>
+        </div>
+        <button>add to cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- south indian special end -->
+
+
+  <!-- about us -->
+
+  <section id="about-section">
+    <div class="about d-flex">
+
+      <div class="about-text">
+        <h2>Why Tasty Treasure?</h2>
+        <p> Welcome to <strong>Tasty Treasure</strong>, your go-to destination for delicious, handcrafted snack cakes
+          made with love and the finest ingredients.
+          Our passion for baking shines through in every bite, delivering sweet moments of joy straight to your
+          doorstep.
+          We believe that every treat should be an experience—whether it’s a nostalgic bite of a childhood favorite or a
+          bold, new flavor to excite your taste buds.
+          Our team is dedicated to bringing you the perfect blend of tradition and innovation in every cake we bake.
+        </p>
+        <p> Thank you for supporting our journey. We’re here to make your life a little sweeter, one snack cake at a
+          time!</p>
+        <button>learn more</button>
+      </div>
+
+      <div class="about-image">
+        <img src="photo/istockphoto.jpg" alt="png"  style="border-radius: 20px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- about us end -->
+
+
+  <!-- customer reviews -->
+
+  <h2 style="text-align: center;   color: #d63384;">Sweet Words from Happy Customers</h2>
+
+  <div class="carousel slide" id="move1" data-bs-ride="carousel">
+    <div class="carousel-inner ">
+
+      <div class="carousel-item  active">
+        <i id="font" class="fa-solid fa-quote-left" ></i>
+        <p> Absolutely delicious! The cakes were moist, flavorful, and arrived perfectly packaged. I’ll definitely be
+          ordering again!
+        </p>
+        <i id="font1" class="fa-solid fa-quote-right"></i><br>
+        <img src="photo/person2.jpg" alt="" width="100" height="100">
+        <div class="name">- Sarah M.</div>
+        <div class="star"> ★ ★ ★ ★ ★</div>
+      </div>
+
+      <div class="carousel-item ">
+        <i id="font" id="font" class="fa-solid fa-quote-left"></i>
+        <p> I bought the snack cakes for a family gathering, and they were a huge hit! The variety of flavors was
+          amazing.</p>
+        <i id="font1" class="fa-solid fa-quote-right"></i><br>
+        <img src="photo/person1.jpg" alt="" width="100" height="100">
+        <div class="name">- James L.</div>
+        <div class="star"> ★ ★ ★ ★ ★</div>
+      </div>
+
+      <div class="carousel-item">
+        <i id="font" class="fa-solid fa-quote-left"></i>
+        <p> Fast delivery and super fresh! The chocolate fudge cake is to die for. Highly recommend for any sweet
+          tooth!</p>
+        <i id="font1" class="fa-solid fa-quote-right"></i><br>
+        <img src="photo/person5.avif" alt="" width="100" height="100">
+        <div class="name">- Emily R.</div>
+        <div class="star"> ★ ★ ★ ★ ☆ </div>
+      </div>
+
+      <div class="carousel-item">
+        <i id="font" class="fa-solid fa-quote-left" ></i>
+        <p>The softest cookies I’ve ever had! Freshly baked and beautifully packed. I’ve already placed my second
+          order.</p>
+        <i id="font1" class="fa-solid fa-quote-right"></i><br>
+        <img src="photo/person3.jpg" alt="" width="100" height="100">
+        <div class="name">- David R.</div>
+        <div class="star">★ ★ ★ ★ ★</div>
+      </div>
+
+      <div class="carousel-item">
+        <i id="font" class="fa-solid fa-quote-left" ></i>
+        <p>The red velvet cupcakes were divine. You can tell they bake with passion. My family couldn’t stop talking
+          about them. </p>
+        <i id="font1" class="fa-solid fa-quote-right"></i><br>
+        <img src="photo/person4.jpg" alt="" width="100" height="100">
+        <div class="name">- Michael T.</div>
+        <div class="star"> ★ ★ ★ ★ ☆</div>
+      </div>
+
+      <div class="carousel-item">
+        <i id="font" class="fa-solid fa-quote-left" ></i>
+        <p>I needed a last-minute gift, and they delivered the sweetest surprise within hours. Wonderful service and so
+          easy to order online!</p>
+        <i id="font1" class="fa-solid fa-quote-right"></i><br>
+        <img src="photo/person7.jpg" alt="" width="100" height="100">
+        <div class="name">- Jessica P.</div>
+        <div class="star">★ ★ ★ ★ ☆</div>
+      </div>
+
+      <div class="carousel-item ">
+        <i id="font" class="fa-solid fa-quote-left" ></i>
+        <p>I ordered a custom chocolate cake for my daughter’s birthday, and it was stunning! and the delivery was
+          right on time. Highly recommend!</p>
+        <i id="font1" class="fa-solid fa-quote-right"></i><br>
+        <img src="photo/person6.jpg" alt="" width="100" height="100">
+        <div class="name">- Joseph V.</div>
+        <div  class="star">★★★★★</div>
+      </div>
+    </div>
+
+    <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#move1">
+      <span class="carousel-control-prev-icon" style="background-color: #d63384;"></span>
+    </button>
+    <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#move1">
+      <span class="carousel-control-next-icon" style="background-color: #d63384;"></span>
+    </button>
+  </div>
+
+  <!-- customer reviews end -->
+
+
+  <!-- latest  blogs -->
+
+  <section class="blog-section">
+    <h2>Latest from Our Blog </h2>
+    <div class="blog-container">
+      <div class="blog-card">
+        <img src="photo/maxresdefault.jpg" alt="chocolate">
+        <div class="blog-content">
+          <h3>The Secret to a Moist Chocolate Cake</h3>
+          <p>Discover expert tips to make your chocolate cake irresistibly moist and delicious.</p>
+          <a href="#">Read More →</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="photo/Chocolate-Burfi-H1-1.webp" alt="Baking Tips">
+        <div class="blog-content">
+          <h3>Traditional vs. Modern Wedding Sweets</h3>
+          <p>Should you stick with classic sweets or try something modern? We compare both options...</p>
+          <a href="#">Read More →</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="photo/cup.jpg" alt="Cupcakes">
+        <div class="blog-content">
+          <h3>Easy Cupcake Recipes for Beginners</h3>
+          <p>Whip up delicious cupcakes with these simple and foolproof recipes.</p>
+          <a href="#">Read More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- latest blogs end -->
+
+
+  <!-- footer section -->
+  <footer class="conclusion">
+    <div id="footer">
+
+      <div class=" col-md-3" id="about1">
+        <img src="photo/tasty2.png" alt="tasty" width="200" height="150">
+        <p> At <strong>Tasty Treasure</strong>, we bring you handcrafted snack cakes made with
+          love, tradition, and the
+          finest ingredients.
+          Sweeten your day with every bite!
+        </p>
+      </div>
+
+      <div class=" col-md-3">
+        <div class="link">
+          <h2>Quick links</h2>
+          <ul>
+            <li style="margin-bottom: 15px;"><a href="#">Home</a></li>
+            <li style="margin-bottom: 15px;"><a href="#">Sweets</a></li>
+            <li style="margin-bottom: 15px;"><a href="#">Snacks</a></li>
+            <li style="margin-bottom: 15px;"><a href="#">Cakes</a></li>
+            <li style="margin-bottom: 15px;"><a href="#">About</a></li>
+            <li style="margin-bottom: 15px;"><a href="#">Services</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class=" col-md-3" id="contact">
+        <h2>Contact info</h2>
+        <div class="anger">
+          <p><a href="#">Contact us</a></p>
+        </div>
+        <p>Email : tastytreasure@gmail.com</p>
+        <p>Customer Care : 044-5444 4445</p>
+        <p>Location : Nungambakkam, chennai-600 034</p>
+        <p style="font-weight: bold;">If you want to get latest updates!</p>
+        <div class="update">
+          <input type="email" name="email" id="email" placeholder="Enter your email"
+            style="outline: none; border: none; padding-left: 5px;">
+          <button>subscribe</button>
+        </div>
+      </div>
+
+      <div class="col-md-3" id="follow">
+        <h2>Connect with us </h2>
+        <a href="#"> <i class="fa-brands fa-square-facebook" style="font-size: 30px; margin-top: 15px;"></i></a>
+        <a href="#"> <i class="fa-brands fa-square-instagram" style="font-size: 30px; margin-top: 15px;"></i></a>
+        <a href="#"> <i class="fa-brands fa-square-twitter" style="font-size: 30px; margin-top: 15px;"></i></a>
+        <a href="#"> <i class="fa-brands fa-square-youtube" style="font-size: 30px; margin-top: 15px;"></i></a>
+      </div>
+    </div>
+    <hr>
+    <div class="copy">
+      <p>&copy; 2025 Tasty Treasure. All rights reserved.</p>
+  </footer>
+
+  <!-- footer section end -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
